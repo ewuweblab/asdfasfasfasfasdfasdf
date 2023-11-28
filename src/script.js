@@ -20,10 +20,10 @@ const API_KEY = 'vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57';
         
           // template 
           const template  = `
-          <div class="carousel-item">
+          <div class="carousel-item w-full">
             <img src=" ${gif.images.downsized.url} " />
             <p> ${gif.title} </p>
-		 </div>
+		    </div>
           `;
         
           // append
